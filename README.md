@@ -22,17 +22,17 @@ We used the version "sentences_allagree", which includes only sentences where al
 Models Compared
 The notebook trains and compares the following architectures:
 
-Bidirectional LSTM
-Recurrent architecture suitable for sequence learning, capturing long-term dependencies.
+  -Bidirectional LSTM
+  Recurrent architecture suitable for sequence learning, capturing long-term dependencies.
 
-GRU (Gated Recurrent Units)
-A simplified alternative to LSTMs with comparable performance on many NLP tasks.
+  -GRU (Gated Recurrent Units)
+  A simplified alternative to LSTMs with comparable performance on many NLP tasks.
 
-Conv1D
-A convolutional model that learns spatial relationships in sequences using sliding windows.
+  -Conv1D
+  A convolutional model that learns spatial relationships in sequences using sliding windows.
 
-Transformer (Tiny version)
-A minimal self-attention model adapted for sequence classification, implemented with keras-nlp.
+  -Transformer (Tiny version)
+  A minimal self-attention model adapted for sequence classification, implemented with keras-nlp.
 
 Evaluation Methodology
 Each model is trained using the same train/validation/test split. The main evaluation metric is accuracy, and results are summarized in a comparative table at the end of the notebook.
